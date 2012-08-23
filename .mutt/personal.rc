@@ -1,0 +1,22 @@
+# me
+set realname = "Jeremy Kitchen"
+set from = "kitchen@example.org"
+set envelope_from = yes
+
+# personal account info
+set imap_user = "kitchen@example.org"
+set imap_pass = "REDACTED"
+set folder = imaps://imap.gmail.com/
+set smtp_url = smtps://kitchen@example.org@smtp.gmail.com/
+set smtp_pass = $imap_pass
+
+# default mailboxes
+## this is google apps, these are the places to store bits
+set spoolfile = "=INBOX"
+set record = "=[Gmail]/Sent Mail"
+set postponed = "=[Gmail]/Drafts"
+
+# bring in the shared
+source ~/.mutt/shared.rc
+
+# vim: ft=muttrc:

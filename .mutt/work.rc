@@ -1,0 +1,22 @@
+# me
+set realname = "Jeremy Kitchen"
+set from = "jeremy.kitchen@example.com"
+set envelope_from = yes
+
+# work account info
+set imap_user = "jeremy.kitchen"
+set imap_pass = "REDACTED"
+set folder = imaps://mail.example.com/
+set smtp_url = smtps://jeremy.kitchen@mail.example.com/
+set smtp_pass = $imap_pass
+
+# default mailboxes
+## this is an exchange server, so this is where Outlook puts its stuff
+set spoolfile = "=INBOX"
+set record = "=Sent Items"
+set postponed = "=Drafts"
+
+# bring in the shared!
+source ~/.mutt/shared.rc
+
+# vim: ft=muttrc:

@@ -1,0 +1,20 @@
+## save copies of sent mail to $record
+set copy=yes
+
+# color scheme
+source ~/.mutt/solarized/mutt-colors-solarized-dark-16.muttrc 
+
+# things I can't live without
+set sort = threads
+
+# vim-ish keybindings for going to the bottom of things
+bind pager "G" bottom
+bind index "G" bottom
+bind browser "G" bottom
+
+# if you have more than a few emails, you *really* want this
+set header_cache = ~/.mutt/headercache
+set message_cachedir = ~/.mutt/messagecache
+
+
+# vim: ft=muttrc:
