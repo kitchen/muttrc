@@ -16,6 +16,10 @@ set spoolfile = "=INBOX"
 set record = "=Sent Items"
 set postponed = "=Drafts"
 
+# if you have more than a few emails, you *really* want this
+set header_cache = ~/.mutt/caches/work-headercache
+set message_cachedir = ~/.mutt/caches/work-messagecache
+
 # bring in the shared!
 source ~/.mutt/shared.rc
 

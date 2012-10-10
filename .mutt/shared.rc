@@ -12,9 +12,5 @@ bind pager "G" bottom
 bind index "G" bottom
 bind browser "G" bottom
 
-# if you have more than a few emails, you *really* want this
-set header_cache = ~/.mutt/headercache
-set message_cachedir = ~/.mutt/messagecache
-
 
 # vim: ft=muttrc:
